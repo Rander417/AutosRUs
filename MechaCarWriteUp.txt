@@ -1,8 +1,6 @@
 # AutosRUs
 
 ### PART I MPG Regression
-![](readme_images/MechaCar_corMatrix.png)
-![](readme_images/MechaCar_multiLinReg.png)
 
 The results show that vehicle weight provides a non-random variance amount. Length, weight, and ground clearance do not add a significant amount.
 
@@ -12,14 +10,12 @@ The r-squared value is .71 which means that this accurately predicts the mpg rou
 
 
 ### PART II Suspension Coil Summary
-![](readme_images/coil_summary.png)
 
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per inch. Does the current manufacturing data meet this design specification? Why or why not?
 The summary table shows that Lot1 and Lot2 are safely within the 100 pounds per inch limit. However Lot3 has a variance of more that double the limit at 220. A review into Lot3 should take place to determine the cause of the variance.
 
 
 ### PART III Suspension Coil T-Test
-![](readme_images/coil_t_test.png)
 
 The p-value of the t-test is .51. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
 
